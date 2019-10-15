@@ -30,10 +30,9 @@ namespace FancyWaitIndicators
             get { return (bool)GetValue(IsRunningProperty); }
             set { SetValue(IsRunningProperty, value); }
         }
-
-        // Using a DependencyProperty as the backing store for IsRunning.  This enables animation, styling, binding, etc...
-        public static readonly DependencyProperty IsRunningProperty =
-            DependencyProperty.Register("IsRunning", typeof(bool), typeof(CircleWaitIndicator), new PropertyMetadata(false));
+        public static readonly DependencyProperty IsRunningProperty = DependencyProperty.Register("IsRunning", typeof(bool), typeof(CircleWaitIndicator), new PropertyMetadata(false));
+        //------------------------------------------------------------------------------------------------------------------------------------
+        //------------------------------------------------------------------------------------------------------------------------------------
         //------------------------------------------------------------------------------------------------------------------------------------
         //------------------------------------------------------------------------------------------------------------------------------------
         //------------------------------------------------------------------------------------------------------------------------------------
